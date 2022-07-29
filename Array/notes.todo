@@ -1,0 +1,15 @@
+- Array
+☐ An array is a data structure that can hold collection of values
+☐ Array can contain a mx of different data types. You can store string, boolean, numbers or even objects all in the same array
+☐ Array are resizable. You don't have to declare the size of an array before creating it.
+☐ JavaScript arrays are zero-indexed and the insertion order is maintained.
+☐ Arrays are iterables. They can be used with a for of loop.
+
+- Array - Big-o time complexity
+☐ Inserter/ remove form end => O(1)
+☐ Insert / remove from beginning => O(n)
+☐ Access => O(1)
+☐ Search => O(n)
+☐ Push/Pop => O(1)
+☐ Shift/ unshift/ concat/ slice/ splice => O(n)
+☐ forEach/ map/ filter/reduce => O(n)
