@@ -1,0 +1,20 @@
+-Queue
+    ☐ The queue data structure is a sequential collection of elements that folows the principe of First In First Out(FIFO)
+    ☐ The first element inserted into the queue is first element to be removed
+    ☐ A queue of people. People enter the queue at one end(rear/tail) and leave the queue from the other end(front/head)
+    ☐ The Queue data structure supports 2 main operations:
+        ☐ Enqueque, which adds an element to the rear/tail of the collection
+        ☐  Dequeue, which removes an element from the front/head of the collection
+
+- Queue Usage
+    ☐ Printers
+    ☐ CPU task scheduling
+    ☐ Callback queue in JavaScript runtime
+
+- Queue Implementation
+    ☐ enqueque(element) - add an element to the queue
+    ☐  dequeue() - remove the oldest element from the queue
+    ☐  peek() - get the value of the element at the front of the queue without removing it
+    ☐  isEmpty() - check if the queue is empty.
+    ☐  size() - get the number of elements in the queue
+    ☐  print() - visualize the elements in the queue.
