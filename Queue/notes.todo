@@ -18,3 +18,26 @@
     ☐  isEmpty() - check if the queue is empty.
     ☐  size() - get the number of elements in the queue
     ☐  print() - visualize the elements in the queue.
+
+- Circular Queue
+    ☐  The Size of the queue is fixed and a single block of memory is used as if the first element is connected to the last element.
+    ☐ Also referred to as circular buffer or ring buffer and follows the FIFO principle.
+    ☐ A circular queue will reuse the empty block created during the dequeue operation.
+    ☐  When working with queue of fixed maximum size, a circular queue is a great Implementation choice.
+    ☐ The Circular queue data structure supposrts two main operations
+        ☐ Enqueque, which adds an element to the rear/tail of the collection
+        ☐ Dequeue, which removes an element from the front/head of the collection
+
+☐ Circular Queue Usage
+    ☐ Clock
+    ☐ Streaming data
+    ☐ Traffic lights.
+
+☐ Circular Queue Implementation
+    ☐ enqueque(element) - add an element to the queue
+    ☐ dequeue() - remove the oldest element form the queue
+    ☐ isFull() - check if the queue is isFull
+    ☐ isEmpty() - check if the queue is empty
+    ☐ peek() - get the value of the element at the front of the queue without removing it.
+    ☐ size() - get the number of elements in the queue
+    ☐ print()- visualize the elements in the queue.
