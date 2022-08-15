@@ -1,0 +1,43 @@
+User Interface:
+    ☐  Activity bar (files, search, merge, debug, extension)
+    ☐ Editor vision
+    ☐  Editor group(files opened)
+    ☐  Panel (terminal, problem, debug console)
+    ☐  Side Bar (git branch name, issues)
+    ☐  Status Bar (space, language code)
+
+Command Line:
+    ☐  code => open latest Project you were working on 
+    ☐  code -n => open new window in vs code 
+    ☐  code.     => open your current directory
+    ☐  code --goto package.json:10:5 => open file on line 10 column 5
+    ☐  code --help => other command.
+
+Command Palette and Navigation:
+    ☐  ctrl + p => find and navigate to file
+    ☐  ctrl + p and p again =>  toggle between 2 files
+    ☐  ctrl + shift + tab
+    ☐  ctrl + p and @ => find symbol or method
+    ☐  ctrl + p and @: => find symbol or method grouping
+    ☐  ctrl + p and  #validationTopic() => find function and open the file.
+    ☐  ctrl + t => find function and open the file.
+    ☐  ctrl + p and :10 => goto line
+    ☐  ctrl + g   => goto line
+    ☐  ctrl + p and ? => get list of possible command list to navigate
+    ☐  https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022
+
+Editing Tips and tricks:
+    ☐ Alt + click: cursor on multiple places
+    ☐  ctrl + d: find and select on multiple cursor
+    ☐  ctrl + u: go to previous cursor
+    ☐  alt + shift + f: format data
+
+Intellisense: 
+    ☐ preview color in css
+    ☐  preview of element in html
+
+Customization:
+      ☐ Themes (Material Theme)
+      
+    
+
