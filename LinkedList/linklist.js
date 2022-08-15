@@ -102,6 +102,29 @@ class LinkList {
       console.log(deleteNode.value);
     }
   }
+
+  removeValue(value) {
+    if (this.isEmpty()) {
+      console.log("No node present");
+    } else if (this.head.value === value) {
+      this.head = this.head.next;
+      this.size--;
+      return value;
+    } else {
+      let prev = this.head;
+      let removeNode;
+      while (prev.next && prev.next.value !== value) {
+        prev = prev.next;
+      }
+      if (prev.next) {
+        removeNode = prev.next;
+        prev.next = removeNode.next;
+        this.size--;
+        return value;
+      }
+      return null;
+    }
+  }
 }
 
 const list = new LinkList();
@@ -138,3 +161,13 @@ console.log("list size", list.getSize());
 list.removeFrom(3);
 list.print();
 console.log("list size", list.getSize());
+
+list.removeValue(30);
+list.print();
+list.removeValue(40);
+list.print();
+list.removeValue(10);
+list.print();
+list.removeValue(20);
+list.removeValue(0);
+list.print();
