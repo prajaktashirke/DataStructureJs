@@ -125,17 +125,50 @@ class LinkList {
       return null;
     }
   }
+
+  search(value) {
+    if (this.isEmpty()) {
+      console.log("No list");
+      return -1;
+    } else {
+      let cur = this.head;
+      let i = 0;
+      while (cur) {
+        if (cur.value === value) {
+          return i;
+        }
+        cur = cur.next;
+        i++;
+      }
+      return -1;
+    }
+  }
+
+  reverse() {
+    let prev = null;
+    let curr = this.head;
+    while (curr) {
+      let next = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = next;
+    }
+    this.head = prev;
+  }
 }
 
 const list = new LinkList();
 console.log("list is empty", list.isEmpty());
 console.log("list size", list.getSize());
 // list.print();
+console.log("\nPrepend Linked List");
 list.prepend(10);
 // list.print();
 list.prepend(20);
 list.prepend(30);
 list.print();
+
+console.log("\nAppend Linked List");
 list.append(10);
 // list.print();
 list.append(20);
@@ -143,6 +176,7 @@ list.append(30);
 list.print();
 
 // insert
+console.log("\nInsert Linked List");
 list.insert(40, 0);
 list.print();
 
@@ -155,6 +189,7 @@ list.print();
 list.insert(0, -10);
 console.log("list size", list.getSize());
 
+console.log("\nRemove Linked List from index");
 list.removeFrom(0);
 list.print();
 console.log("list size", list.getSize());
@@ -162,6 +197,7 @@ list.removeFrom(3);
 list.print();
 console.log("list size", list.getSize());
 
+console.log("\nRemove Linked List from value");
 list.removeValue(30);
 list.print();
 list.removeValue(40);
@@ -170,4 +206,15 @@ list.removeValue(10);
 list.print();
 list.removeValue(20);
 list.removeValue(0);
+list.print();
+
+console.log("\nSearch Linked List");
+console.log(list.search(10));
+console.log(list.search(20));
+console.log(list.search(30));
+console.log(list.search(40));
+
+console.log("\nRevese LinkList");
+list.print();
+list.reverse();
 list.print();
