@@ -1,0 +1,81 @@
+What is algorithm?
+    An algorithm is a set of well-defined instructions to solve a particular problem
+
+Characteristics
+    - Well defined inputs and outputs
+    - Each step should be clear and unambiguous
+    - Language independent
+
+Why algorithm?
+    - Learning algorithms translates to learning different techniques to efficiently solve those problems
+    - One problem can be solved in many ways using different algorithms
+    - Every algorithm comes with its own tradeoffs when it comes to performance
+
+Algorithm Analysis
+    - We evaluate the performance of an algorithm in terms of its input size
+        1.Time complexity: Amount of time taken by an algorithm to run, as a function as input size.
+        2. Space complexity: Amount of memnory taken by an algorithm to run, as a function of input size.
+
+    - By evaluating against the input size, the analysis is not only machine independent but the comparison is also more appropriate.
+    - There is no one solution that works every single time. It is always good to know multiple ways to solve the problem and use the best solution, given your constraints
+    - If your app needs to be very quick and has plenty of memory to work with, you don't have to worry about space complexity
+    - If you have very little memory to work with, you hould pick a solution that is relatively slower bt needs less space.
+
+How to represent complexity?
+
+    Asymptonic notations:
+    - Mathematical tools to represent time and space complexity
+        1. Big-0 Notation: Worst case complexity
+        2. Omega Notation: Best case complexity
+        3. Theta Notation: average case complexity
+
+Big-O Notation:
+    - The worst case complexity of an algorithm is represented using the Big o notation.
+    - Big-O notation describes the complexity of an algorithm using algebraic terms
+    - It has 2 important characteristics
+        1. It is expressed in terms of the input
+        2. It focuses on the bigger picture without getting caught up in the minute details
+
+Big-O time complexity:
+    O(n): Linear time complexity
+    - Example: function with single loop => O(n)
+    - It focuses on the bigger picture without getting caught up in the minute details.
+
+    O(1): constant time complexity
+    - Example: function returning a+b
+
+    O(n^2): quadratic time complexity
+    - Example is nested loop
+
+    O(n^3): cubic time complexity
+    - Example is 3 nested loops
+
+    O(log n): Logarithmic time complexity
+    - Input size reduces by half every iteration
+
+Space complexity:
+    O(1) - constant
+    O(n) - Linear
+    O(log n) - Logarithmic
+
+//////////////////////////////////////
+
+Objects - Big O
+    - An Object is collection of key value pairs.
+    Insert - O(1)
+    Remove - O(1)
+    Access - O(1)
+    Search - O(n)
+    Object.keys() - O(n)
+    Object.values() - O(n)
+    Object.entries() - O(n)
+
+Arrays - Big O
+    - An array is an ordered collection of values
+    Insert / remove at end - O(1)
+    Insert / remove at beginning - O(n)
+    Access - O(1)
+    Search - O(n)
+    push/ pop - O(1)
+    shift/ unshift/ concat/slice /splice - O(n)
+    forEach / map/ filter/reduce - O(n)
