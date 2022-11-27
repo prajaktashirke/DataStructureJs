@@ -147,6 +147,10 @@ class LinkList {
   reverse() {
     let prev = null;
     let curr = this.head;
+    // 10  -> 12 -> 20 -> 30  =>current
+    //  curr   next
+    // prev    curr
+    // prev = curr      curr = next
     while (curr) {
       let next = curr.next;
       curr.next = prev;
