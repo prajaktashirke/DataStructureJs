@@ -3,3 +3,5 @@
 ☐ Binary search on order Agnostic (you need to find if it is in asc or desc then apply search)
 ☐ First and last occurance of element.
 ☐ Count element in sorted array.
+☐ Number of time sorted array is rotated
+☐ Find Element is rotated sorted array
