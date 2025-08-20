@@ -20,3 +20,15 @@
     ☐  isEmpty() - check if the stack is empty
     ☐  size() - get the number of elements in the stack
     ☐  print() - visualize the elements in the Stack
+
+- Problem set
+    ☐ Nearest greater to right(NGR)
+    ☐ Nearest greater to left(NGL)
+    ☐ Nearest Smaller to left(NSL)
+    ☐ Nearest Smaller to right(NSR)
+    ☐ Stock Span Problem
+    ☐ Maximum Area Histogram
+    ☐ Max Area Rectangle in binary matrix
+    ☐ Rain Water Trapping
+    ☐ Minimum Element in stack
+    ☐ Minimum element in stack in O(1) space
