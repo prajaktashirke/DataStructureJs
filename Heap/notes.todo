@@ -1,0 +1,4 @@
+Notes
+☐ When to use Heap => Kth element + largest/smallest
+☐ Which heap to use => Largest(min heap)/ smallest(max heap)
+☐ Time complexity => O(nlogk) .....after sorting
