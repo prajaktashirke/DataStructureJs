@@ -1,0 +1,8 @@
+Trees has 2 Traversal
+    - BFS
+    - DFS
+
+DFS has 3 ways to traverse
+    - Pre order traversal (root -> left -> right)
+    - In Order traversal (Left -> root -> right)
+    - Post Order Traversal (left -> right -> root)
